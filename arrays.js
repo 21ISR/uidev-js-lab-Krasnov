@@ -5,13 +5,16 @@
 // const ar_fruits = ["банан", "яблоко", "вишня", "абрикос", "груша"]
 // console.log(ar_fruits.sort().join(", "))
 
-const ar_products = [
-  { name: "Ноутбук", price: 75000 },
-  { name: "Мышь", price: 1500 },
-  { name: "Монитор", price: 32000 },
-  { name: "Клавиатура", price: 3500 },
-  { name: "Наушники", price: 8000 }
-]
-console.log(ar_products.filter(el => el.price < 10000))
-console.log(ar_products.map(n => n.name))
-console.log(ar_products.reduce((acc, el) => acc + el, 0))
+// const ar_products = [
+//   { name: "Ноутбук", price: 75000 },
+//   { name: "Мышь", price: 1500 },
+//   { name: "Монитор", price: 32000 },
+//   { name: "Клавиатура", price: 3500 },
+//   { name: "Наушники", price: 8000 }
+// ]
+// console.log(ar_products.filter(el => el.price < 10000))
+// console.log(ar_products.map(n => n.name))
+// console.log(ar_products.reduce((acc, el) => acc + el.price, 0))
+
+// const ar_num2 = [12, 45, 7, 33, 18]
+// console.log(ar_num2.some(el => el > 40), ar_num2.every(el => el > 5))
